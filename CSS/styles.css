@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+
+.header {
+    padding: 35px 0 32px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 281px;
+}
+
+.menu {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu-item a {
+    font-size: 16px;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.layout {
+    padding: 150px 0 205px 0;
+}
+
+.layout-text-item {
+    margin-left: 16px;
+    display: inline-block;
+}
+
+.layout-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 486px;
+    margin-bottom: 80px;
+}
+
+.button {
+    background: none;
+    padding: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 224px;
+    text-align: center;
+}
+
+.button.layout-button {
+    border: 2px solid white;
+    color: white;
+}
+
+.study-title {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    margin-bottom: 80px;
+}
+
+.layout-text {
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 101px;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.study {
+    padding: 140px 0;
+}
+
+.study-list {
+    list-style: none;
+}
+
+.study-list-item {
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.study-list-item-text {
+    margin-left: 16px;
+    display: inline-block;
+}
+
+.professionals {
+    background-image: url("../images/bg2.png");
+    background-size: cover;
+    padding: 140px 0 0;
+}
+
+.professionals-container {
+    margin: 0 auto 140px auto;
+    max-width: 996px;
+    background: white;
+    padding: 60px 60px 44px;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.professionals-title {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button.professionals-button {
+    color: rgb(177, 128, 228);
+    border: 2px solid rgb(177, 128, 228);
+}
+
+.professionals-text {
+    max-width: 588px;
+    margin: 0 auto 30px auto;
+}
+
+.professionals-text.professionals-text-extra {
+    margin-bottom: 40px;
+}
+
+.footer {
+    text-align: center;
+    padding: 46px 0 46px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
